@@ -1,0 +1,95 @@
+<header class="main-header">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg main-nav px-0">
+      <a class="navbar-brand" href="/mojo">
+              <!-- <img src="http://rajeshdas.com/assets/images/logo.svg" alt="rajeshdas.com"> -->
+              <h1>Portafolio Henry</h1>
+            </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="icon-bar icon-bar-1"></span>
+                      <span class="icon-bar icon-bar-2"></span>
+                      <span class="icon-bar icon-bar-3"></span>
+                  </button>
+      <div class="collapse navbar-collapse justify-content-center" id="mainMenu">
+        <ul class="navbar-nav ml-auto text-uppercase f1">
+          <li>
+            <a href="#home" class="active active-first">Sobre</a>
+          </li>
+          <li>
+            <a href="#about">Educación</a>
+          </li>
+          <li>
+            <a href="#service">Habilidades</a>
+          </li>
+          <li>
+            <a href="#project">Proyectos</a>
+          </li>
+          <li>
+            <a href="#team">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container animated fadeIn mt-5 text-center">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-3">
+        <img class="animate__animated animate__zoomIn" id="fotoPerfil" src="assets/img/HenryFoto.jpg " alt="">
+        <div class="titulo1">
+          <h1 class="animated fadeIn">Henry Sanchez</h1>
+        </div>
+
+        <div class="titulo2">
+          <h2 class="animated fadeIn">Desarrollador Frontend</h2>
+        </div>
+      </div>
+    </div>
+        <div class="estracto mt-5 text-center">
+          <p>Soy una persona que esta motivada a desarrollar constantemente mis habiliddades y crecer profesionalmente,
+            me considero una persona responsable,  ya que me gusta cumplir con las tareas se me asignan, me gusta el trabajo en equipo,
+            colaborar con el equipo a la hora de desarrollar un proyecto, adaptación a los nuevos cambios.
+
+
+
+
+          </p>
+        </div>
+
+  </div>
+
+
+
+
+
+<div class="container">
+<div class="mt-5 title text-center">
+  <h1>Estos son algunos de mis trabajos</h1>
+</div>
+  <hr>
+
+  <div class="tarjetas  animate__animated animate__zoomIn ">
+  <div class="row text-center justify-content-center">
+
+    <div class="card" id="cards" *ngFor="let card of cards">
+      <img class="card-img-top img-fluid" [src]="card.imagen" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{card.title}}</h5>
+        <p class="card-text"><strong>Tecnología:</strong>  {{ card.tecnologias }}.</p>
+    <div class="buttons">
+        <button type="" class="btn btn-outline-light" id="button">
+          <a [href]="card.urlProyecto">Ver proyecto</a>
+        </button>
+        <button type="" class="btn btn-outline-light" id="button">
+          <a [href]="card.urlGitHub">GitHubLink</a>
+        </button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</header>
+
+
+
