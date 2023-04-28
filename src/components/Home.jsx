@@ -1,5 +1,5 @@
 import React from 'react'
-import HenryS from '../assets/img/HenryS.jpg'
+import HenryS from '../assets/img/Henry_Perfil1.jpg'
 import {MdKeyboardArrowRight} from 'react-icons/md'
 
 
@@ -14,14 +14,12 @@ const Home = () => {
                 <div>
                     <button className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-950 to-black hover:scale-110 duration-200 cursor-pointer'>
                         Portafolio
-                        <span className='hover:rotate-90 duration-200'>
-                            <MdKeyboardArrowRight size={25} className='ml-2'/>
-                        </span>
+                         <span  className='hover:rotate-90 duration-200'><MdKeyboardArrowRight size={ 25 } className='ml-2'/> </span>
                     </button>
                 </div>
             </div>
-            <div>
-                <img src={HenryS} alt='Mi Foto' className='rounded-2xl mx-auto w-2/3 md:w-full'></img>
+            <div className='rounded-2xl mx-auto w-auto  md:w-full' >
+                <img src={HenryS} alt='Mi Foto' className='rounded-2xl mx-auto h-auto md:w-full sm: w-full mb-28'></img>
             </div>
         </div>
     </div>
