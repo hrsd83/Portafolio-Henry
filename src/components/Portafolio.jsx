@@ -30,7 +30,7 @@ const Portafolio = () => {
             <div className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-30 sm:px-0'
             >
                 {portafolios.map(({id, src}) => ( 
-                    <div key={id} className=' shadow-md shadow-red-600 rounded-lg '>
+                    <div key={id} className=' shadow-md shadow-gray-500 rounded-lg '>
                     <img src= {src} alt='clima' className='rounded-md duration-200 hover:scale-105'></img>
                     <div className='flex items-center justify-center'>
                         <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Cypress</button>
