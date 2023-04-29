@@ -95,18 +95,18 @@ const Experiencia = () => {
             title: 'Trello',
             style: 'shadow-orange-500'
         },
-        // {
-        //     id: 13,
-        //     src: postman,
-        //     title: 'Postam',
-        //     style: 'shadow-orange-500'
-        // },
-        // {
-        //     id: 14,
-        //     src: visualSCode,
-        //     title: 'Visual Studio Code',
-        //     style: 'shadow-orange-500'
-        // },
+        {
+            id: 13,
+            src: postman,
+            title: 'Postam',
+            style: 'shadow-orange-500'
+        },
+        {
+            id: 14,
+            src: visualSCode,
+            title: 'Visual Studio Code',
+            style: 'shadow-orange-500'
+        },
 
     ]
 
