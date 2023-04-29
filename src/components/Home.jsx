@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <div className='h-screen w-full bg-gradient-to-b from-red-500 via-black to-red-500 '>
 
-        <div className='max-w-screen-lg mx-auto  flex flex-col items-center justify-center h-full px-4   md:flex-row '>
-            <div className='flex flex-col justify-center h-full  '>
-                <h2 className='text-4xl sm:text-7xl font-bold text-white'>Soy Tester QA</h2>
+        <div className='max-w-screen-lg mx-auto  flex flex-col items-center justify-center h-full px-4 md:flex-row  '>
+            <div className='flex flex-col justify-center h-full   '>
+                <h2 className='text-4xl sm:text-7xl font-bold  text-white'>Tester QA</h2>
 
-                <p className='text-gray-500 py-4'>Soy una persona proactiva, excelente compañero de equipo, organizado, responsable y me gusta ayudar a los demas. Comenzar mi carrera profesional en una empresa reconocida me motiva arduamente,  tengo gran facilidad de aprender procesos nuevos y un inmenso placer en integrarme al equipo de trabajo, por lo que le puedo asegurar  que en breve  estaré desempeñando las funciones del puesto optimamente.</p>
+                <p className='text-gray-500 py-4 hidden sm:block'>Soy una persona proactiva, excelente compañero de equipo, organizado, responsable y me gusta ayudar a los demas. Comenzar mi carrera profesional en una empresa reconocida me motiva arduamente,  tengo gran facilidad de aprender procesos nuevos y un inmenso placer en integrarme al equipo de trabajo, por lo que le puedo asegurar  que en breve  estaré desempeñando las funciones del puesto optimamente.</p>
                 <div>
                     <button className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-950 to-black hover:scale-110 duration-200 cursor-pointer'>
                         Portafolio
