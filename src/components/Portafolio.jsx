@@ -22,9 +22,14 @@ const Portafolio = () => {
                 
             <div className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-30 sm:px-0'
             >
-                {portafolios.map(({id, src,url}) => ( 
+                {portafolios.map(({id, src, url}) => ( 
                     <div key={id} className=' shadow-md shadow-gray-500 rounded-lg '>
-                    <a href={url}> <img src= {src} alt='' className='rounded-md duration-200 hover:scale-105'></img></a>
+                   <a href={url}> <img src= {src} alt='' className='rounded-md duration-200 hover:scale-105'>
+
+                        
+
+                    </img>
+                    </a> 
                     <div className='flex items-center justify-center'>
                     
 
