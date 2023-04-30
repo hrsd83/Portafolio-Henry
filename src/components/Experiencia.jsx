@@ -33,61 +33,61 @@ const Experiencia = () => {
             id: 2,
             src: css,
             title: 'CSS',
-            style: 'shadow-orange-500'
+            style: 'shadow-blue-500'
         },
         {
             id: 3,
             src: javascript,
             title: 'HTML',
-            style: 'shadow-orange-500'
+            style: 'shadow-yellow-500'
         },
         {
             id: 4,
             src: react,
             title: 'React',
-            style: 'shadow-orange-500'
+            style: 'shadow-blue-400'
         },
         {
             id: 5,
             src: bootstrap,
             title: 'Bootstrap',
-            style: 'shadow-orange-500'
+            style: 'shadow-purple-500'
         },
         {
             id: 6,
             src: tailwind,
             title: 'Tailwind',
-            style: 'shadow-orange-500'
+            style: 'shadow-green-300'
         },
         {
             id: 7,
             src: git,
             title: 'Git',
-            style: 'shadow-orange-500'
+            style: 'shadow-orange-900'
         },
         {
             id: 8,
             src: github,
             title: 'GitHub',
-            style: 'shadow-orange-500'
+            style: 'shadow-white'
         },
         {
             id: 9,
             src: selenium,
             title: 'Selenium,',
-            style: 'shadow-orange-500'
+            style: 'shadow-green-700'
         },
         {
             id: 10,
             src: cypress,
             title: 'Cypress',
-            style: 'shadow-orange-500'
+            style: 'shadow-green-300'
         },
         {
             id: 11,
             src: jira,
             title: 'Jira',
-            style: 'shadow-orange-500'
+            style: 'shadow-blue-800'
         },
         {
             id: 12,
@@ -111,7 +111,7 @@ const Experiencia = () => {
     ]
 
   return (
-    <div className ='bg-gradient-to-b from-gray-800 to-black w-full h-full '> 
+    <div name ="Experiencia" className ='bg-gradient-to-b from-gray-800 to-black w-full h-full '> 
 
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div>
@@ -121,7 +121,7 @@ const Experiencia = () => {
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
             {tecnologias.map(({id, src, title, style}) => (
                 <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                    <img src={src} alt='experiencia' className=" w-24 mx-auto"></img>
+                    <img src={src} alt='experiencia' className=" w-48 mx-auto"></img>
                     <p className='mt-4'>{title}</p>
                 </div>
             ))
