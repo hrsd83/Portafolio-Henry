@@ -33,7 +33,7 @@ const SocialLinks = () => {
                     Resumen <BsFileEarmarkPdf size={ 30 }/>
                 </>
             ),
-            href:"https://www.canva.com/design/DAFgxfARk5E/NHfRpgr8UFdk4F9P76yXRg/view?utm_content=DAFgxfARk5E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelinkhttps://www.canva.com/design/DAFgxfARk5E/9zW62BWS8K5v6oHIxB9JYw/edit?utm_content=DAFgxfARk5E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" ,
+            href:"/public/HenryCv.pdf",
             style: 'rounded-br-md',
         },
     ]

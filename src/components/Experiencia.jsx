@@ -93,19 +93,19 @@ const Experiencia = () => {
             id: 12,
             src: trello,
             title: 'Trello',
-            style: 'shadow-orange-500'
+            style: 'shadow-blue-900'
         },
         {
             id: 13,
             src: postman,
-            title: 'Postam',
-            style: 'shadow-orange-500'
+            title: 'Postman',
+            style: 'shadow-orange-600'
         },
         {
             id: 14,
             src: visualSCode,
             title: 'Visual Studio Code',
-            style: 'shadow-orange-500'
+            style: 'shadow-blue-500'
         },
 
     ]
@@ -118,7 +118,7 @@ const Experiencia = () => {
                 <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experiencia</p>
                 <p className='py-6'>Estas son las tecnologias con las que he trabajado</p>
             </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-10 text-center py-8 px-12 sm:px-0'>
             {tecnologias.map(({id, src, title, style}) => (
                 <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
                     <img src={src} alt='experiencia' className=" w-48 mx-auto"></img>
