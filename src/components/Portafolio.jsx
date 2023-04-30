@@ -3,21 +3,13 @@ import Clima2 from "../assets/img/clima2.jpg"
 
 
 const Portafolio = () => {
+ 
     const portafolios = [
 
         {
             id: 1,
             src: Clima2
         },
-        {
-            id: 2,
-            src: Clima2
-        },
-        {
-            id: 3,
-            src: Clima2
-        },
-
     ]
   return (
     <div name = "Portafolio" className=' bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
@@ -33,8 +25,13 @@ const Portafolio = () => {
                     <div key={id} className=' shadow-md shadow-gray-500 rounded-lg '>
                     <img src= {src} alt='clima' className='rounded-md duration-200 hover:scale-105'></img>
                     <div className='flex items-center justify-center'>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Cypress</button>
-                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Selenium</button>
+
+                        <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+                        <a href='/public/Clima/prueba-de-texto.side' download>Selenium</a>
+                        
+                        </button>
+                        {/* <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+                        Cypress</button> */}
 
                     </div>
                 </div>

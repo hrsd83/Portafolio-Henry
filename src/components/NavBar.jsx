@@ -37,7 +37,7 @@ const NavBar = () => {
         <ul className='hidden md:flex'>
         {/* Se mapean los links */}
         {links.map(({ id,link }) =>(
-            <li key={ id }  className=' ml-5 px-8 cursor-pointer capitalize font-bold text-gray-400 hover:scale-110 duration-200 bg-gradient-to-r from-cyan-950 to-black py-1 hover:rounded-3xl '> 
+            <li key={ id }  className=' ml-5 px-8 cursor-pointer capitalize font-bold text-gray-400 hover:scale-110 duration-200 bg-gradient-to-r from-cyan-950 to-black py-1 hover:rounded-2xl  '> 
                 <Link to= {link} offset={-70} smooth duration ={400}>{link}</Link>
                 
             </li>

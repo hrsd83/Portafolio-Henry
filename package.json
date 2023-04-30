@@ -20,6 +20,7 @@
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^4.0.0-beta.0",
     "autoprefixer": "^10.4.14",
+    "cypress": "^12.11.0",
     "eslint": "^8.38.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -27,5 +28,17 @@
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.1",
     "vite": "^4.3.0"
-  }
+  },
+  "description": "Portafolio Henry Sanchez-React",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrsd83/Portafolio-Henry.git"
+  },
+  "author": "Henry Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrsd83/Portafolio-Henry/issues"
+  },
+  "homepage": "https://github.com/hrsd83/Portafolio-Henry#readme"
 }

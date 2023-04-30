@@ -1,0 +1,49 @@
+{
+  "id": "9ae673ed-2d38-4269-bc5e-d7eaa51cba24",
+  "version": "2.0",
+  "name": "Clima",
+  "url": "https://clima-five.vercel.app/",
+  "tests": [{
+    "id": "2dd1b754-19ff-42e6-856b-1fd42d63fbae",
+    "name": "Prueba para verificar los textos",
+    "commands": [{
+      "id": "d08e38d4-36b9-4965-a2ac-dd4786a0a885",
+      "comment": "",
+      "command": "open",
+      "target": "https://clima-five.vercel.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7bc1dc6-15ba-45e7-bc5f-011e2745ed4e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1004x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bea25784-626a-499d-8db2-9c2b7f8fd3da",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=titulo",
+      "targets": [],
+      "value": "BUSCA EL CLIMA"
+    }, {
+      "id": "a5507003-2e07-42f9-b3b5-3ac5504a940f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.mt-6",
+      "targets": [],
+      "value": "Agrega tu ciudad y país, el resultado se mostrará aquí"
+    }]
+  }],
+  "suites": [{
+    "id": "0faae6d3-6d3c-4e98-a16d-4a849f811204",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2dd1b754-19ff-42e6-856b-1fd42d63fbae"]
+  }],
+  "urls": ["https://clima-five.vercel.app/"],
+  "plugins": []
+}
