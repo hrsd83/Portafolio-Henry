@@ -20,7 +20,7 @@ const Home = () => {
                           </span>
                     </Link>
                     <button className=' text-white w-36 px-16 py-3 my-4 rounded-md bg-gradient-to-r from-cyan-950 to-black hover:scale-110 duration-200 cursor-pointer block sm:hidden items-center '>
-                        <a href='/public/HenryCv.pdf'download >CV</a>
+                        <a href='/HenryCv.pdf' download>CV</a>
                          
                     </button>
                     

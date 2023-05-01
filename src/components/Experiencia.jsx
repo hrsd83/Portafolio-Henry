@@ -108,7 +108,7 @@ const Experiencia = () => {
             style: 'shadow-blue-500'
         },
 
-    ]
+    ] 
 
   return (
     <div name ="Experiencia" className ='bg-gradient-to-b from-gray-800 to-black w-full h-full '> 
