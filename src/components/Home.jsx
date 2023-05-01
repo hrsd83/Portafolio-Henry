@@ -16,9 +16,14 @@ const Home = () => {
                 <div>
                     <Link to='Portafolio' smooth duration={500} className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-950 to-black hover:scale-110 duration-200 cursor-pointer'>
                         Portafolio
-                        {/* <a href='/HenryCv.pdf' download>Portafolio</a> */}
-                         <span  className='hover:rotate-90 duration-200'><MdKeyboardArrowRight size={ 25 } className='ml-2'/> </span>
+                         <span  className='hover:rotate-90 duration-200'><MdKeyboardArrowRight size={ 25 } className='ml-2'/>
+                          </span>
                     </Link>
+                    <button className=' text-white w-36 px-16 py-3 my-4 rounded-md bg-gradient-to-r from-cyan-950 to-black hover:scale-110 duration-200 cursor-pointer block sm:hidden items-center '>
+                        <a href='/public/HenryCv.pdf'download >CV</a>
+                         
+                    </button>
+                    
                     
                 </div>
             </div>
