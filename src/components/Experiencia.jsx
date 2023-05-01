@@ -38,7 +38,7 @@ const Experiencia = () => {
         {
             id: 3,
             src: javascript,
-            title: 'HTML',
+            title: 'Javascript',
             style: 'shadow-yellow-500'
         },
         {
