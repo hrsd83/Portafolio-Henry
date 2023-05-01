@@ -27,7 +27,9 @@ const Contacto = () => {
                 
 
                 </textarea>
-                <button className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-900 to-black hover:scale-110 duration-300 cursor-pointer'> Enviar </button>
+                <button className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-900 to-black hover:scale-110 duration-300 cursor-pointer'> 
+                    Enviar
+                 </button>
             </form>
         </div>
       </div>
