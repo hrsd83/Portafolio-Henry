@@ -18,6 +18,7 @@ const Home = () => {
                         {/* <a href='/HenryCv.pdf' download>Portafolio</a> */}
                          <span  className='hover:rotate-90 duration-200'><MdKeyboardArrowRight size={ 25 } className='ml-2'/> </span>
                     </Link>
+                    
                 </div>
             </div>
             <div className='rounded-2xl mx-auto w-full md:w-full mb-20  ' >
