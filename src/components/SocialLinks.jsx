@@ -33,8 +33,9 @@ const SocialLinks = () => {
                     Resumen <BsFileEarmarkPdf size={ 30 }/>
                 </>
             ),
-            href:"/public/HenryCv.pdf",
+            href:"/HenryCv.pdf",
             style: 'rounded-br-md',
+            download:"/HenryCv.pdf"
         },
     ]
   return (
