@@ -20,7 +20,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className='rounded-2xl mx-auto w-full md:w-full  ' >
+            <div className='rounded-2xl mx-auto w-full md:w-full mb-20  ' >
                 <img src={HenryS} alt='Mi Foto' className='rounded-2xl mx-auto h-auto md:w-full sm: w-full  '></img>
             </div>
         </div>
