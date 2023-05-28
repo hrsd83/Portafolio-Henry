@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai'
 import {BsFileEarmarkPdf} from 'react-icons/bs'
+import {BsLinkedin} from 'react-icons/bs'
 
 
 
@@ -37,6 +38,16 @@ const SocialLinks = () => {
             style: 'rounded-br-md',
             download:"/HenryCv.pdf"
         },
+        {
+            id: 4,
+            child: (
+                <>
+                    LinkedIn <BsLinkedin size={ 30 }/>
+                </>
+            ),
+            style: 'rounded-br-md',
+            href:"https://www.linkedin.com/in/henry-s%C3%A1nchez/",
+        },
     ]
   return (
       <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
@@ -44,12 +55,12 @@ const SocialLinks = () => {
 
           {linsksSocial.map(({ id, child, href, style, download }) => (
               <li key={ id } 
-              className={'flex justify-between items-center w-40 h-14 px-4 bg-gradient-to-r from-cyan-950 to-black ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300' + " " + 
+              className={'flex justify-between items-center w-40 h-14 px-4 bg-gradient-to-r from-cyan-950 to-black ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 ' + " " + 
               style}
               >
                   <a
                    href={ href } 
-                   className='flex justify-between items-center w-full text-white'
+                   className='flex justify-between items-center w-full text-white  '
                    download={ download }
                    target='_blank'
                    >
