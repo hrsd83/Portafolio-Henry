@@ -35,12 +35,12 @@ const Portafolio = () => {
                 ></img>
               </a>
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href="">
-                    Landing Page Realizada con el framework React y Libreria
-                    Talwind Css
-                  </a>
+                <button className="w-60 h-24  px-6 flex text-center bg-red-400 py-3 m-4">
+                  Landing Page Realizada con el framework React y Libreria
+                  Talwind Css
                 </button>
+                {/* <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+                        Cypress</button> */}
               </div>
             </div>
           ))}
