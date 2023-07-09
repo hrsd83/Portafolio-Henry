@@ -35,7 +35,7 @@ const Portafolio = () => {
                 ></img>
               </a>
               <div className="flex items-center justify-center">
-                <button className="w-60 h-24  px-6 flex text-center bg-red-400 py-3 m-4">
+                <button className="w-60 h-24  px-6 flex text-center  py-3 m-4">
                   Landing Page Realizada con el framework React y Libreria
                   Talwind Css
                 </button>
