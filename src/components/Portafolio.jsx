@@ -4,7 +4,7 @@ const Portafolio = () => {
   const portafolios = [
     {
       id: 1,
-      img: "/src/assets/img/img_landing_page.png",
+      src: "/src/assets/img/img_landing_page.png",
       url: "https://landing-page-wheat-iota.vercel.app/",
     },
   ];
@@ -24,12 +24,12 @@ const Portafolio = () => {
         </div>
 
         <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-30 sm:px-0">
-          {portafolios.map(({ id, img, url }) => (
+          {portafolios.map(({ id, src, url }) => (
             <div key={id} className=" shadow-md shadow-gray-500 rounded-lg ">
               <a href={url}>
                 {" "}
                 <img
-                  src={img}
+                  src={src}
                   alt=""
                   className="rounded-md duration-200 hover:scale-105"
                 ></img>
