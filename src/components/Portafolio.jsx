@@ -4,7 +4,7 @@ const Portafolio = () => {
   const portafolios = [
     {
       id: 1,
-      src: "/src/assets/img/img_landing_page.png",
+      src: "/public/img_landing_page.png",
       url: "https://landing-page-wheat-iota.vercel.app/",
     },
   ];
